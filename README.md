@@ -103,7 +103,7 @@ The flow of the system:
 
 ## **5. Database Configuration**
 
-The project uses **MySQL** to manage the database. I will automatically configure it.
+The project uses **MySQL** to manage the database. It will automatically configure the DB.
 
 ---
 
