@@ -103,40 +103,7 @@ The flow of the system:
 
 ## **5. Database Configuration**
 
-The project uses **MySQL** to manage the database. Here is the basic structure of the database schema:
-
-### **Customer Table**:
-```sql
-CREATE TABLE customers (
-  id BIGINT AUTO_INCREMENT PRIMARY KEY,
-  name VARCHAR(255),
-  email VARCHAR(255) UNIQUE,
-  password VARCHAR(255),
-  address VARCHAR(255)
-);
-```
-
-### **Product Table**:
-```sql
-CREATE TABLE products (
-  id BIGINT AUTO_INCREMENT PRIMARY KEY,
-  name VARCHAR(255),
-  price DECIMAL(10, 2),
-  description VARCHAR(500)
-);
-```
-
-### **Order Table**:
-```sql
-CREATE TABLE orders (
-  id BIGINT AUTO_INCREMENT PRIMARY KEY,
-  customer_id BIGINT,
-  product_id BIGINT,
-  quantity INT,
-  FOREIGN KEY (customer_id) REFERENCES customers(id),
-  FOREIGN KEY (product_id) REFERENCES products(id)
-);
-```
+The project uses **MySQL** to manage the database. I will automatically configure it.
 
 ---
 
