@@ -1,0 +1,15 @@
+com\clothing\shoppingwebapp\controller\HomeController.class
+com\clothing\shoppingwebapp\repository\OrderRepository.class
+com\clothing\shoppingwebapp\service\ProductService.class
+com\clothing\shoppingwebapp\model\Customer.class
+com\clothing\shoppingwebapp\controller\ProductController.class
+com\clothing\shoppingwebapp\model\Order.class
+com\clothing\shoppingwebapp\repository\CustomerRepository.class
+com\clothing\shoppingwebapp\controller\OrderController.class
+com\clothing\shoppingwebapp\controller\CustomerController.class
+com\clothing\shoppingwebapp\Application.class
+com\clothing\shoppingwebapp\controller\CheckoutController.class
+com\clothing\shoppingwebapp\repository\ProductRepository.class
+com\clothing\shoppingwebapp\service\CustomerService.class
+com\clothing\shoppingwebapp\model\Product.class
+com\clothing\shoppingwebapp\service\OrderService.class
